@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
         val webSettings = mWebView.settings
         webSettings.javaScriptEnabled = true
+        webSettings.domStorageEnabled = true
+
         mWebView.loadUrl(getString(R.string.website_url))
         mWebView.webViewClient = HelloWebViewClient()
         WebView.setWebContentsDebuggingEnabled(false)
