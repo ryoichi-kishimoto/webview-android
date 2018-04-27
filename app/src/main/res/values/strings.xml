@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Awesome web view sample</string>
+    <string name="website_domain">mode.luxa.jp</string>
+    <string name="website_url">https://mode.luxa.jp</string>
+</resources>
